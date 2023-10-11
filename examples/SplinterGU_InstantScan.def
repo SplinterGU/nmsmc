@@ -1,0 +1,6 @@
+# Instant Scan MOD
+
+# output .pak
+!outputPakFile build/SplinterGU_InstantScan.pak
+
+!include SplinterGU_InstantScan.inc

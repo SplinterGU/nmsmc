@@ -1,0 +1,16 @@
+!outputPakFile build/SplinterGU_SuperMod.pak
+
+# add SplinterGU_StackX100 MOD 
+!include SplinterGU_StackX100.inc
+
+# add SplinterGU_InstantScan MOD
+!include SplinterGU_InstantScan.inc
+
+# add SplinterGU_ClearWater MOD
+!include SplinterGU_ClearWater.inc
+
+# add "Exosolar's Clear Scanner and Surveyor MOD"
+!include Exosolar_s_Clear_Scanner_and_Surveyor.inc
+
+# add Companion Pet Unlocker MOD
+!include CompanionPetUnlocker.inc

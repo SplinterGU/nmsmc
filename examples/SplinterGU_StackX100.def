@@ -1,0 +1,3 @@
+!outputPakFile build/SplinterGU_StackX100.pak
+
+!include SplinterGU_StackX100.inc
