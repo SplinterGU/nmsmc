@@ -1,0 +1,6 @@
+##########################
+# Based on https://www.nexusmods.com/nomanssky/mods/1093
+
+!outputPakFile build/Exosolar_s_Clear_Scanner_and_Surveyor.pak
+
+!include Exosolar_s_Clear_Scanner_and_Surveyor.inc

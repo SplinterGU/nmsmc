@@ -1,0 +1,8 @@
+#############################################
+# This is a fixed version of this mod
+# https://www.nexusmods.com/nomanssky/mods/1868
+#############################################
+
+!outputPakFile build/CompanionPetUnlocker.pak
+
+!include CompanionPetUnlocker.inc

@@ -1,0 +1,5 @@
+# Based on Crystal Clear Water -> https://www.nexusmods.com/nomanssky/mods/798
+
+!outputPakFile build/SplinterGU_ClearWater.pak
+
+!include SplinterGU_ClearWater.inc
