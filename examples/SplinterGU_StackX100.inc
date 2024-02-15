@@ -1,14 +1,14 @@
-!inputPakFile NMSARC.globals.pak
-!mbinFile GCGAMEPLAYGLOBALS.GLOBAL.MBIN
+!inputPakFile NMSARC.MetadataEtc.pak
+!mbinFile METADATA/GAMESTATE/DIFFICULTYCONFIG.MBIN
 
 # stack limit High x100
 
-cd /DifficultyConfig/InventoryStackLimitsOptionData/High
+cd /InventoryStackLimitsOptionData/High
 
 SubstanceStackLimit=999999
 ProductStackLimit=999999
 
-cd /DifficultyConfig/InventoryStackLimitsOptionData/High/MaxSubstanceStackSizes
+cd /InventoryStackLimitsOptionData/High/MaxSubstanceStackSizes
 
 Default=999999
 Personal=999999
@@ -23,7 +23,7 @@ BaseCapsule=999999
 MaintenanceObject=999999
 UIPopup=999999
 
-cd /DifficultyConfig/InventoryStackLimitsOptionData/High/MaxProductStackSizes
+cd /InventoryStackLimitsOptionData/High/MaxProductStackSizes
 
 Default=500
 Personal=1000
@@ -40,12 +40,12 @@ UIPopup=100
 
 # stack limit Normal x100
 
-cd /DifficultyConfig/InventoryStackLimitsOptionData/Normal
+cd /InventoryStackLimitsOptionData/Normal
 
 SubstanceStackLimit=999999
 ProductStackLimit=999999
 
-cd /DifficultyConfig/InventoryStackLimitsOptionData/Normal/MaxSubstanceStackSizes
+cd /InventoryStackLimitsOptionData/Normal/MaxSubstanceStackSizes
 
 Default=50000
 Personal=50000
@@ -60,7 +60,7 @@ BaseCapsule=200000
 MaintenanceObject=25000
 UIPopup=25000
 
-cd /DifficultyConfig/InventoryStackLimitsOptionData/Normal/MaxProductStackSizes
+cd /InventoryStackLimitsOptionData/Normal/MaxProductStackSizes
 
 Default=500
 Personal=1000
@@ -77,12 +77,12 @@ UIPopup=100
 
 # stack limit Low x100
 
-cd /DifficultyConfig/InventoryStackLimitsOptionData/Low
+cd /InventoryStackLimitsOptionData/Low
 
 SubstanceStackLimit=999999
 ProductStackLimit=999999
 
-cd /DifficultyConfig/InventoryStackLimitsOptionData/Low/MaxSubstanceStackSizes
+cd /InventoryStackLimitsOptionData/Low/MaxSubstanceStackSizes
 
 Default=15000
 Personal=30000
@@ -97,7 +97,7 @@ BaseCapsule=125000
 MaintenanceObject=15000
 UIPopup=15000
 
-cd /DifficultyConfig/InventoryStackLimitsOptionData/Low/MaxProductStackSizes
+cd /InventoryStackLimitsOptionData/Low/MaxProductStackSizes
 
 Default=300
 Personal=300
@@ -111,12 +111,3 @@ Chest=1000
 BaseCapsule=5000
 MaintenanceObject=500
 UIPopup=100
-
-# instant scan
-
-cd /
-
-BinocTimeBeforeScan=0
-BinocMinScanTime=0
-BinocScanTime=0
-BinocCreatureScanTime=0
