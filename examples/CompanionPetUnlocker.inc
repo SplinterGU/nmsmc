@@ -56,11 +56,11 @@
 !mbinFile MODELS/PLANETS/CREATURES/WEIRD/WEIRDRIG/ENTITIES/WEIRDCRYSTAL.ENTITY.MBIN
 !include CompanionPetUnlocker_InteractionAction.inc
 
-!mbinFile MODELS/PLANETS/CREATURES/WEIRD/WEIRDRIG/ENTITIES/WEIRDFLOAT.ENTITY.MBIN
-!include CompanionPetUnlocker_InteractionAction.inc
+#!mbinFile MODELS/PLANETS/CREATURES/WEIRD/WEIRDRIG/ENTITIES/WEIRDFLOAT.ENTITY.MBIN
+#!include CompanionPetUnlocker_InteractionAction.inc
 
-!mbinFile MODELS/PLANETS/CREATURES/WEIRD/WEIRDRIG/ENTITIES/WEIRDROLL.ENTITY.MBIN
-!include CompanionPetUnlocker_InteractionAction.inc
+#!mbinFile MODELS/PLANETS/CREATURES/WEIRD/WEIRDRIG/ENTITIES/WEIRDROLL.ENTITY.MBIN
+#!include CompanionPetUnlocker_InteractionAction.inc
 
 !mbinFile MODELS/PLANETS/CREATURES/WEIRD/GROUNDCREATURE/ENTITIES/_GROUND_RODENT.ENTITY.MBIN
 !include CompanionPetUnlocker_InteractionAction.inc
@@ -77,8 +77,8 @@
 !mbinFile MODELS/PLANETS/CREATURES/WEIRD/WEIRDBUTTERFLY/ENTITIES/WEIRDBUTTERFLY.ENTITY.MBIN
 !include CompanionPetUnlocker_InteractionAction.inc
 
-!mbinFile MODELS/PLANETS/CREATURES/WEIRD/ROLLERCREATURE/ENTITIES/_STRANGE_ROLL.ENTITY.MBIN
-!include CompanionPetUnlocker_InteractionAction.inc
+#!mbinFile MODELS/PLANETS/CREATURES/WEIRD/ROLLERCREATURE/ENTITIES/_STRANGE_ROLL.ENTITY.MBIN
+#!include CompanionPetUnlocker_InteractionAction.inc
 
 !mbinFile MODELS/PLANETS/CREATURES/WEIRD/WEIRDFLOCK/ENTITIES/WEIRDFLOCK.ENTITY.MBIN
 !include CompanionPetUnlocker_InteractionAction.inc
@@ -110,8 +110,8 @@
 !mbinFile MODELS/PLANETS/CREATURES/BUTTERFLYRIG/BUTTERFLYFLOCK/ENTITIES/BUTTERFLYFLOCK.ENTITY.MBIN
 !include CompanionPetUnlocker_InteractionAction.inc
 
-!mbinFile MODELS/PLANETS/CREATURES/BUTTERFLYRIG/LARGEBUTTERFLY/ENTITIES/LARGEBUTTERFLYDATA.ENTITY.MBIN
-!include CompanionPetUnlocker_InteractionAction.inc
+#!mbinFile MODELS/PLANETS/CREATURES/BUTTERFLYRIG/LARGEBUTTERFLY/ENTITIES/LARGEBUTTERFLYDATA.ENTITY.MBIN
+#!include CompanionPetUnlocker_InteractionAction.inc
 
 !mbinFile MODELS/PLANETS/CREATURES/RODENTRIG/RODENTSWIM/ENTITIES/RODENTSWIM.ENTITY.MBIN
 !include CompanionPetUnlocker_InteractionAction.inc
@@ -143,8 +143,8 @@
 !mbinFile MODELS/PLANETS/CREATURES/FISH/PROC_JELLYFISH/ENTITIES/PROCJELLYFISH.ENTITY.MBIN
 !include CompanionPetUnlocker_InteractionAction.inc
 
-!mbinFile MODELS/PLANETS/CREATURES/BEETLERIG/BEETLE/ENTITIES/BEETLEDATA.ENTITY.MBIN
-!include CompanionPetUnlocker_InteractionAction.inc
+#!mbinFile MODELS/PLANETS/CREATURES/BEETLERIG/BEETLE/ENTITIES/BEETLEDATA.ENTITY.MBIN
+#!include CompanionPetUnlocker_InteractionAction.inc
 
 !mbinFile MODELS/PLANETS/CREATURES/SEASNAKE/SEASNAKE/ENTITIES/SEASNAKE.ENTITY.MBIN
 !include CompanionPetUnlocker_InteractionAction.inc
@@ -195,29 +195,181 @@
 !include CompanionPetUnlocker_InteractionAction.inc
 
 !mbinFile MODELS/PLANETS/CREATURES/BEETLERIG/BEETLE/ENTITIES/BEETLEDATA.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData
+cd /Components/=GcInteractionComponentData.xml
 RepeatInteraction=False
 UseInteractCamera=False
 
 !mbinFile MODELS/PLANETS/CREATURES/BUTTERFLYRIG/LARGEBUTTERFLY/ENTITIES/LARGEBUTTERFLYDATA.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData
+cd /Components/=GcInteractionComponentData.xml
 RepeatInteraction=False
 UseInteractCamera=False
 
 !mbinFile MODELS/PLANETS/CREATURES/WEIRD/ROLLERCREATURE/ENTITIES/_STRANGE_ROLL.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData
+cd /Components/=GcInteractionComponentData.xml
 RepeatInteraction=False
 UseInteractCamera=False
 
 !mbinFile MODELS/PLANETS/CREATURES/WEIRD/WEIRDRIG/ENTITIES/WEIRDFLOAT.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData
+cd /Components/=GcInteractionComponentData.xml
 RepeatInteraction=False
 UseInteractCamera=False
 
 !mbinFile MODELS/PLANETS/CREATURES/WEIRD/WEIRDRIG/ENTITIES/WEIRDROLL.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData
+cd /Components/=GcInteractionComponentData.xml
 RepeatInteraction=False
 UseInteractCamera=False
+
+
+!mbinFile MODELS/COMMON/ROBOTS/QUADRUPED/ENTITIES/QUADRUPED_MESH.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/COMMON/ROBOTS/QUADRUPED/ENTITIES/QUADRUPED_PET.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/COMMON/ROBOTS/SPHEREDRONE/ENTITIES/DRONEJNT.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/COMMON/ROBOTS/SPIDER_QUADRUPED/ENTITIES/SPIDERQUAD.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/COMMON/ROBOTS/SPIDER_SMALLQUAD/ENTITIES/SPIDERSMALLQUAD.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/ANTELOPERIG/ANTELOPE/ENTITIES/_BODY_CYBER1.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/ANTELOPERIG/ANTELOPE/ENTITIES/_BODY_SKINNY.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/BEETLERIG/BEETLE/ENTITIES/BEETLEDATA.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/ANTELOPERIG/ANTELOPEROBOT/ENTITIES/ANTELOPEROBOT.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/ANTELOPERIG/ANTELOPETWOLEGS/ENTITIES/_BODY_TWOLEGDEER1.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/BLOBRIG/BLOB/ENTITIES/_BODY_BLOB.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/BUTTERFLYRIG/LARGEBUTTERFLY/ENTITIES/LARGEBUTTERFLYDATA.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/CATRIG/BONECAT/ENTITIES/BONECATBODY.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/CATRIG/CAT/ENTITIES/CATHINDLEGS.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/CATRIG/CAT/ENTITIES/CAT_BODY.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/CATRIG/SIXLEGCAT/ENTITIES/_BODY_SIXLEGCAT.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/COWRIG/COWFLOATING/ENTITIES/_BODY_ROCK.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/COWRIG/COW/ENTITIES/_BODY_COW.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/COWRIG/COWHINDLEGS/ENTITIES/_BODY_ROCK.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/COWRIG/SIXLEGGEDCOW/ENTITIES/_BODY_6LEGCOW.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/FISH/LANDJELLYFISH/ENTITIES/LANDJELLYFISH.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile #MODELS/PLANETS/CREATURES/FLYINGLIZARDRIG/FLYINGLIZARD/ENTITIES/BODY_LIZARD.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile #MODELS/PLANETS/CREATURES/FLYINGSNAKE/FLYINGSNAKE/ENTITIES/KITECREATURE.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/GRUNTRIG/GRUNT/ENTITIES/_BODY_GRUNTFLOAT.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/GRUNTRIG/GRUNT/ENTITIES/_BODY_GRUNT.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/RODENTRIG/RODENT/ENTITIES/_BODY_RODENT.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/SPIDERRIG/FIEND/ENTITIES/_FIEND_BODY.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/SPIDERRIG/SPIDER/ENTITIES/SPIDERFLOAT.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/SPIDERRIG/SPIDER/ENTITIES/SPIDER.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/STRIDERRIG/STRIDER/ENTITIES/STRIDERMESH.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/TREXRIG/TREX/ENTITIES/_BODY_TREX.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/TRICERATOPSRIG/TRICERATOPS/ENTITIES/_BODY_TRI.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/WEIRD/FLOATERCREATURE/ENTITIES/_STRANGE_FLOAT.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/WEIRD/ROLLERCREATURE/ENTITIES/_STRANGE_ROLL.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/WEIRD/WEIRDRIG/ENTITIES/WEIRDFLOAT.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+!mbinFile MODELS/PLANETS/CREATURES/WEIRD/WEIRDRIG/ENTITIES/WEIRDROLL.ENTITY.MBIN
+cd /Components/=GcInteractionComponentData.xml
+InteractDistance=100
+
+
+
+!mbinFile MODELS/PLANETS/BIOMES/COMMON/INTERACTIVE/PET_EGG/ENTITIES/PET_EGG.ENTITY.MBIN
+cd /Components/=GcSimpleInteractionComponentData.xml/Id[=R_PETEGGLOOT]/..
+InteractDistance=25
+
 
 
 !mbinFile METADATA/SIMULATION/ECOSYSTEM/CREATUREDATATABLE.MBIN
@@ -279,18 +431,18 @@ JointName=Root
 !include CompanionPetUnlocker_JointCommon.inc
 
 ### FLYINGSNAKE
-cd /Table/=GcCreatureData.xml/Id[=FLYINGSNAKE]/../Data
-=GcCreatureRidingData.xml
-cd /Table/=GcCreatureData.xml/Id[=FLYINGSNAKE]/../Data/=GcCreatureRidingData.xml
-JointName=RootJNT
-!include CompanionPetUnlocker_JointCommon.inc
+#cd /Table/=GcCreatureData.xml/Id[=FLYINGSNAKE]/../Data
+#=GcCreatureRidingData.xml
+#cd /Table/=GcCreatureData.xml/Id[=FLYINGSNAKE]/../Data/=GcCreatureRidingData.xml
+#JointName=RootJNT
+#!include CompanionPetUnlocker_JointCommon.inc
 
 ### FLYINGLIZARD
-cd /Table/=GcCreatureData.xml/Id[=FLYINGLIZARD]/../Data
-=GcCreatureRidingData.xml
-cd /Table/=GcCreatureData.xml/Id[=FLYINGLIZARD]/../Data/=GcCreatureRidingData.xml
-JointName=Back2JNT
-!include CompanionPetUnlocker_JointCommon.inc
+#cd /Table/=GcCreatureData.xml/Id[=FLYINGLIZARD]/../Data
+#=GcCreatureRidingData.xml
+#cd /Table/=GcCreatureData.xml/Id[=FLYINGLIZARD]/../Data/=GcCreatureRidingData.xml
+#JointName=Back2JNT
+#!include CompanionPetUnlocker_JointCommon.inc
 
 ### BUTTERFLY
 cd /Table/=GcCreatureData.xml/Id[=BUTTERFLY]/../Data
@@ -440,6 +592,23 @@ JointName=RootJNT
 !include CompanionPetUnlocker_JointCommon.inc
 
 
+### LARGEBUTTERFLY
+cd /Table/=GcCreatureData.xml/Id[=LARGEBUTTERFLY]/../Data
+=GcCreatureRidingData.xml
+cd /Table/=GcCreatureData.xml/Id[=LARGEBUTTERFLY]/../Data/=GcCreatureRidingData.xml
+
+Offset=Vector3f.xml
+cd Offset
+y=0.25
+z=-0.125
+cd ..
+
+UprightStrength=1
+ScaleForNeutralLegSpread=1.25
+ScaleForMinLegSpread=0.5
+ScaleForMaxLegSpread=4.75
+
+
 !mbinFile METADATA/SIMULATION/ECOSYSTEM/ROBOTDATATABLE.MBIN
 
 cd /Table/=GcCreatureData.xml/Id[=WALKER]/../Data
@@ -482,14 +651,6 @@ PartModifiers
 IdleRidingAnim=RIDE_ANT_IDLE
 DefaultRidingAnim=RIDE_ANT_WALK
 RidingAnims
-
-cd /Table/=GcCreatureData.xml/Id[=QUAD]/../Data/=GcCreatureRidingData.xml
-LegSpread=True
-ScaleForNeutralLegSpread=1.25
-ScaleForMinLegSpread=0.5
-ScaleForMaxLegSpread=4.75
-IdleRidingAnim=RIDE_ANT_IDLE
-DefaultRidingAnim=RIDE_ANT_WALK
 
 cd /Table/=GcCreatureData.xml/Id[=QUAD]/../Data/=GcCreatureRidingData.xml
 LegSpread=True
