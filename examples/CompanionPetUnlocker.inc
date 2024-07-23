@@ -195,173 +195,173 @@
 !include CompanionPetUnlocker_InteractionAction.inc
 
 !mbinFile MODELS/PLANETS/CREATURES/BEETLERIG/BEETLE/ENTITIES/BEETLEDATA.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 RepeatInteraction=False
 UseInteractCamera=False
 
 !mbinFile MODELS/PLANETS/CREATURES/BUTTERFLYRIG/LARGEBUTTERFLY/ENTITIES/LARGEBUTTERFLYDATA.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 RepeatInteraction=False
 UseInteractCamera=False
 
 !mbinFile MODELS/PLANETS/CREATURES/WEIRD/ROLLERCREATURE/ENTITIES/_STRANGE_ROLL.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 RepeatInteraction=False
 UseInteractCamera=False
 
 !mbinFile MODELS/PLANETS/CREATURES/WEIRD/WEIRDRIG/ENTITIES/WEIRDFLOAT.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 RepeatInteraction=False
 UseInteractCamera=False
 
 !mbinFile MODELS/PLANETS/CREATURES/WEIRD/WEIRDRIG/ENTITIES/WEIRDROLL.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 RepeatInteraction=False
 UseInteractCamera=False
 
 
 !mbinFile MODELS/COMMON/ROBOTS/QUADRUPED/ENTITIES/QUADRUPED_MESH.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/COMMON/ROBOTS/QUADRUPED/ENTITIES/QUADRUPED_PET.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/COMMON/ROBOTS/SPHEREDRONE/ENTITIES/DRONEJNT.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/COMMON/ROBOTS/SPIDER_QUADRUPED/ENTITIES/SPIDERQUAD.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/COMMON/ROBOTS/SPIDER_SMALLQUAD/ENTITIES/SPIDERSMALLQUAD.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/ANTELOPERIG/ANTELOPE/ENTITIES/_BODY_CYBER1.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/ANTELOPERIG/ANTELOPE/ENTITIES/_BODY_SKINNY.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/BEETLERIG/BEETLE/ENTITIES/BEETLEDATA.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/ANTELOPERIG/ANTELOPEROBOT/ENTITIES/ANTELOPEROBOT.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/ANTELOPERIG/ANTELOPETWOLEGS/ENTITIES/_BODY_TWOLEGDEER1.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/BLOBRIG/BLOB/ENTITIES/_BODY_BLOB.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/BUTTERFLYRIG/LARGEBUTTERFLY/ENTITIES/LARGEBUTTERFLYDATA.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/CATRIG/BONECAT/ENTITIES/BONECATBODY.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/CATRIG/CAT/ENTITIES/CATHINDLEGS.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/CATRIG/CAT/ENTITIES/CAT_BODY.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/CATRIG/SIXLEGCAT/ENTITIES/_BODY_SIXLEGCAT.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/COWRIG/COWFLOATING/ENTITIES/_BODY_ROCK.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/COWRIG/COW/ENTITIES/_BODY_COW.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/COWRIG/COWHINDLEGS/ENTITIES/_BODY_ROCK.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/COWRIG/SIXLEGGEDCOW/ENTITIES/_BODY_6LEGCOW.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/FISH/LANDJELLYFISH/ENTITIES/LANDJELLYFISH.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile #MODELS/PLANETS/CREATURES/FLYINGLIZARDRIG/FLYINGLIZARD/ENTITIES/BODY_LIZARD.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile #MODELS/PLANETS/CREATURES/FLYINGSNAKE/FLYINGSNAKE/ENTITIES/KITECREATURE.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/GRUNTRIG/GRUNT/ENTITIES/_BODY_GRUNTFLOAT.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/GRUNTRIG/GRUNT/ENTITIES/_BODY_GRUNT.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/RODENTRIG/RODENT/ENTITIES/_BODY_RODENT.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/SPIDERRIG/FIEND/ENTITIES/_FIEND_BODY.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/SPIDERRIG/SPIDER/ENTITIES/SPIDERFLOAT.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/SPIDERRIG/SPIDER/ENTITIES/SPIDER.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/STRIDERRIG/STRIDER/ENTITIES/STRIDERMESH.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/TREXRIG/TREX/ENTITIES/_BODY_TREX.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/TRICERATOPSRIG/TRICERATOPS/ENTITIES/_BODY_TRI.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/WEIRD/FLOATERCREATURE/ENTITIES/_STRANGE_FLOAT.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/WEIRD/ROLLERCREATURE/ENTITIES/_STRANGE_ROLL.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/WEIRD/WEIRDRIG/ENTITIES/WEIRDFLOAT.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 !mbinFile MODELS/PLANETS/CREATURES/WEIRD/WEIRDRIG/ENTITIES/WEIRDROLL.ENTITY.MBIN
-cd /Components/=GcInteractionComponentData.xml
+cd /Components/=LinkableNMSTemplate.xml/=GcInteractionComponentData.xml
 InteractDistance=100
 
 
